@@ -419,7 +419,7 @@ class OCRApp:
         self.azureocr = AzureOCRWrapper()
         self.tesseract = TesseractOCRWrapper()
         self.openaiocr = OpenAIOCRWrapper()
-        st.set_page_config(page_title="DIGILAB OCR", layout="centered")
+        st.set_page_config(page_title="OCR PROJECT", layout="centered")
 
     def run(self):
         self._render_ui()
