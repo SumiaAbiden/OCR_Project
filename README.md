@@ -41,7 +41,7 @@ cp .env.example .env
 
 
 **Notes:**    
-- Ensure a valid OpenAI API key in `.env`.  
+- Ensure valid API keys in `.env`.  
 - The app automatically detects CUDA/GPU for PyTorch if available.
   
 
